@@ -33,7 +33,13 @@ const questions = [
     {
         type: 'input',
         message: 'Please describe how to test the project',
-        name: 'test'
+        name: 'test',
+    },
+    {
+        type: 'checkbox',
+        message: 'Please select a license the project will work under',
+        choices: ['MIT', 'Modzilla', 'Apache', 'Boost'],
+        name: 'license',
     }];
 
 // TODO: Create a function to write README file
