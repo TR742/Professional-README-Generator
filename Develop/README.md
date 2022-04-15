@@ -1,4 +1,4 @@
-# f
+# This is the title
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -13,29 +13,30 @@
 
 ## Description
     
-f
+Description of project
 
 ## Install
 
-f
+Installation process
 
 ## Usage
 
-f
+How to use!
 
 ## Contributors
 
-f
+Tyler Richard
 
 ## Test
 
-f
+How to test the app
 
 ## License
 
-Application covered by licence: MIT/n/n
+Application covered by licence: MIT
+
 https://opensource.org/licenses/MIT
 
 ## Questions
 
-Questions? Please contact the contributors through either GitHub: jdlfa - https://github.com/TR742 or Email address: tyrich1442@gmail.com
+Questions? Please contact the contributors through either GitHub: TR742 - https://github.com/TR742 or Email address: tyrich1442@gmail.com

@@ -67,7 +67,7 @@ ${data.test}
 
 ## License
 
-Application covered by licence: ${data.license}
+Application covered by license: ${data.license}
 
 ${renderLicenseLink(data.license[0])}
 
