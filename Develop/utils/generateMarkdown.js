@@ -16,27 +16,22 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === 'MIT') {
-    return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+    return 'https://opensource.org/licenses/MIT';
   } else if (license === 'Modzilla') {
-    return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
+    return 'https://www.mozilla.org/en-US/MPL/2.0/';
   } else if (license === 'Apache') {
-    return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+    return 'https://www.apache.org/licenses/LICENSE-2.0';
   } else {
-    return '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)';
+    return 'https://www.boost.org/users/license.html';
   }
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license === 'MIT') {
-    return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
-  } else if (license === 'Modzilla') {
-    return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
-  } else if (license === 'Apache') {
-    return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
-  } else {
-    return '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)';
+  if (license) {
+    renderLicenseBadge(license);
+    renderLicenseLink(license);
   }
 }
 
@@ -44,51 +39,41 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
-##Table of Contents
+${renderLicenseBadge(data.license[0])}
+
+## Table of Contents
 
 - [Description](#description)
 - [Installation Process](#install)
 - [How to use](#usage)
 - [Contributors](#contributors)
-- [How to test](#test)
+- [Test](#test)
 - [License](#license)
 
 ## Description
     
 ${data.description}
 
-## Installation Process
+## Install
 
 ${data.install}
 
-## How to use
+## Usage
 
 ${data.usage}
 
-#Contributors
+## Contributors
 
 ${data.contributors}
 
-## How to test
+## Test
 
 ${data.test}
 
 ## License
 
 ${data.license}
-
-## License Badge
-
-${renderLicenseBadge(data.license[0])}
-
-## License Link
-
-${renderLicenseLink(data.license[0])}
-
-## License Section
-    
-${renderLicenseSection(data.license[0])}
-`;
+${renderLicenseLink(data.license[0])}`;
 }
 
 module.exports = generateMarkdown;

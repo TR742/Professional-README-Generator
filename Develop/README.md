@@ -1,46 +1,37 @@
 # f
 
-##Table of Contents
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Table of Contents
 
 - [Description](#description)
 - [Installation Process](#install)
 - [How to use](#usage)
 - [Contributors](#contributors)
-- [How to test](#test)
+- [Test](#test)
 - [License](#license)
 
 ## Description
     
 f
 
-## Installation Process
+## Install
 
 f
 
-## How to use
+## Usage
 
 f
 
-#Contributors
+## Contributors
 
 f
 
-## How to test
+## Test
 
 f
 
 ## License
 
 MIT
-
-## License Badge
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## License Link
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## License Section
-    
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+https://opensource.org/licenses/MIT
