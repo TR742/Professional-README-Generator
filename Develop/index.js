@@ -40,6 +40,16 @@ const questions = [
         message: 'Please select a license the project will work under',
         choices: ['MIT', 'Modzilla', 'Apache', 'Boost'],
         name: 'license',
+    },
+    {
+        type: 'input',
+        message: 'Please input your GitHub username',
+        name: 'username',
+    },
+    {
+        type: 'input',
+        message: 'Please input your email address',
+        name: 'email'
     }];
 
 // TODO: Create a function to write README file

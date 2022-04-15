@@ -72,8 +72,12 @@ ${data.test}
 
 ## License
 
-${data.license}
-${renderLicenseLink(data.license[0])}`;
+${data.license}/n
+${renderLicenseLink(data.license[0])}
+
+## Questions
+
+Questions? Please contact the contributors at GitHub username: ${data.username} or Email address: ${data.email}`;
 }
 
 module.exports = generateMarkdown;

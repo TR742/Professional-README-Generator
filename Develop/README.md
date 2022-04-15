@@ -33,5 +33,9 @@ f
 
 ## License
 
-MIT
+MIT/n
 https://opensource.org/licenses/MIT
+
+## Questions
+
+Questions? Please contact the contributors at f or f
