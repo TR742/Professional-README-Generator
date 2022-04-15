@@ -33,9 +33,9 @@ f
 
 ## License
 
-MIT/n
+Application covered by licence: MIT/n/n
 https://opensource.org/licenses/MIT
 
 ## Questions
 
-Questions? Please contact the contributors at f or f
+Questions? Please contact the contributors through either GitHub: jdlfa - https://github.com/TR742 or Email address: tyrich1442@gmail.com

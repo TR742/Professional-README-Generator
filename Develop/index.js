@@ -48,6 +48,11 @@ const questions = [
     },
     {
         type: 'input',
+        message: 'Please input a link to your GitHub profile',
+        name: 'gblink',
+    },
+    {
+        type: 'input',
         message: 'Please input your email address',
         name: 'email'
     }];
